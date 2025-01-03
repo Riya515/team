@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poor shelter in Mathura city</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+            color: #333;
+        }
 
+        h1 {
+            text-align: center;
+            color: #4a0072;
+            animation: fadeIn 2s;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        h1:before {
+            content: '\f0e8';
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            color: #4a0072;
+            margin-right: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #4a0072;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        td:first-child {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        td i {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+        /* Hover Effect for Table Rows */
+        tr {
+            transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        tr:hover {
+            background-color: #d1b0e7;
+            cursor: pointer;
+            border: 2px solid #4a0072;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Updated "View Code" Button Styling */
+        .view-button {
+            background-color: #4a0072;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .view-button:hover {
+            background-color: #300046;
+            transform: scale(1.1); /* Slight zoom effect */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Shadow increase on hover */
+        }
+
+        .view-button i {
+            transition: transform 0.3s ease;
+        }
+
+        .view-button:hover i {
+            transform: rotate(15deg); /* Rotate icon slightly on hover */
+        }
+
+        /* Next Page Button Styling */
+        .next-button {
+            display: inline-block;
+            background-color: #4a0072;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .next-button:hover {
+            background-color: #300046;
+            transform: scale(1.1); /* Slight zoom effect */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Shadow increase on hover */
+        }
+
+        .next-button i {
+            transition: transform 0.3s ease;
+        }
+
+        .next-button:hover i {
+            transform: translateX(5px); /* Slide arrow icon to the right */
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            body {
+                margin: 10px;
+            }
+
+            table {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                font-size: 14px;
+                margin: 5px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            table {
+                font-size: 12px;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Poor shelter Management in Mathura City</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Algorithm/Data Structure</th>
+            <th>Description</th>
+            <th>View Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <i class="fas fa-network-wired"></i>
+                <strong>Quick access to shelter details based on criteria</strong>
+            </td>
+            <td>Hash Tables</td>
+            <td>Allows for fast lookup of shelters by name,location,availability</td>
+            <td>
+                 <a href='' class="view-button">
+                    <i class="fas fa-code"></i> View Code
+                </a>
+            </td>
+        </tr>
+       
+        
+      
+       
+    </tbody>
+</table>
+
+</body>
+</html>
